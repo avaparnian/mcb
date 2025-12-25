@@ -1,0 +1,95 @@
+@font-face {
+  font-family: heading; /* set name */
+  src: url("../fonts/Heading.ttf"); /* url of the font */
+}
+
+body {
+    margin: 1em;
+    padding: 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: green;
+
+}
+
+#banner {
+    background-image: url("../images/lights.gif");
+    background-repeat: repeat-x;
+    width: 100vw;
+    height: 10em;
+}
+
+#heading {
+    font-family: heading;
+    font-weight: 1;
+    color: goldenrod;
+    text-shadow: -2px 2px rgba(0, 0, 0, 0.692);
+    font-size: 4em;
+}
+
+#paper {
+    /* border: 2px solid red; */
+    width: 80vw;
+    height: 100em;
+    background-image: url("../images/paper.png");
+    background-repeat: no-repeat;
+    background-size: 80vw 100em;
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    margin: 14em 7% 0em 7%;
+    padding: 1em 1em 0em 1;
+    display: flex;
+    height: 20em;
+    flex-direction: column;
+
+}
+
+#intro {
+    padding-left: 1em;
+    font-family: heading;
+    font-weight: 1;
+    font-size: 5em;
+    align-self: flex-start;
+    color: black;
+    line-height: 1;
+}
+
+p {
+    width: 80%;
+    padding-top:0;
+    text-align: center;
+    align-self: center;
+    padding-top: 1.5em;
+    font-size: 2.5em;
+    line-height: 2em;
+}
+
+#photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 3em;
+    padding-bottom: 10em;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.picture {
+    width: 35em;
+}
+
+.sub {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 2em;
+}

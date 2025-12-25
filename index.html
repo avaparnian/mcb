@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+     <audio id="bg-music" loop>
+        <source src="assets/audio/JingleBells.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        document.addEventListener("click", () => {
+            const music = document.getElementById("bg-music");
+            music.play();
+        }, { once: true });
+    </script>
+
+    <div id="banner"></div>
+    <h1 id="heading">Merry Christmas Breiana</h1>
+
+    <div id="paper">
+
+        <div id="content">
+            <h2 id="intro">Dear Breiana</h2>
+            <p id="text">
+                Merry Christmas Breiana!! I am so glad to have had you as my friend this year. 
+                You have helped me through so much and have always been there for me. 
+                I am so greatful to have you as a friend. I know in my heart that next year is 
+                going to be the year of Breiana. Things are going to go your way, i can sense it.
+                I'm looking forward to many more years of being friends with you, and i hope you 
+                enjoy your presents! Lots of love, from Ava.
+            </p>
+        </div>
+        
+        
+    </div>
+
+    <div id="photos">
+        <div class="photo">
+            <img class="picture" src="assets/images/santa.png" alt="">
+            <h2 class="sub">"You've been a bad girl this year..."</h2>
+        </div>
+        <div class="individualPhoto">
+            <img class="picture" src="assets/images/Elfs.png" alt="">
+            <h2 class="sub">Santa's little helpers say "Hello!"</h2>
+        </div>
+    </div>
+
+</body>
+</html>
